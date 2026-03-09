@@ -1,0 +1,11 @@
+    To make a new branch and push your changes to github:
+git add .
+git commit -m "Your comment"
+git checkout -b branch-name
+git push -u origin branch-name
+    ^Following the above you will new to go to github and click some stuff to merge
+
+    To locally host the webpage:
+pnpm dev
+    or
+npm run dev
